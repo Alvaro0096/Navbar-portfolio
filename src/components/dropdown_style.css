@@ -68,3 +68,11 @@
     transform: translateX(110%);
     transition: all var(--speed) ease;
 }
+
+@media (max-width: 375px){
+
+.dropdown{
+    width: 15rem;
+    transform: translateX(-45%);
+}
+}
