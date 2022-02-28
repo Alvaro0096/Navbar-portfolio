@@ -8,6 +8,7 @@ import {ReactComponent as UserIcon} from '../icons_svg/user.svg';
 import {ReactComponent as PhoneIcon} from '../icons_svg/phone-call.svg';
 import {ReactComponent as ArrowDownIcon} from '../icons_svg/caret-down.svg';
 import {ReactComponent as ArrowLeftIcon} from '../icons_svg/caret-left.svg';
+import {ReactComponent as ArrowRightIcon} from '../icons_svg/caret-right.svg';
 import {ReactComponent as GraduationIcon} from '../icons_svg/graduation-cap.svg';
 
 const DropdownMenu = () => {
@@ -44,20 +45,21 @@ const DropdownMenu = () => {
         unmountOnExit
         onEnter={calcHeight}>
             <div className='menu'>
-                <DropdownItem>
+                <DropdownItem
+                leftIcon={<UserIcon />}>
                     My Profile
                 </DropdownItem>
                 <DropdownItem
-                leftIcon={<UserIcon />}
-                // rightIcon={<UserIcon />}
-                goToMenu='settings'>
-                    settings
+                leftIcon={<ArrowRightIcon />}
+                // rightIcon={<ArrowRightIcon />}
+                goToMenu='about'>
+                    About
                 </DropdownItem>
             </div>
         </CSSTransition>
 
         <CSSTransition
-        in={activeMenu === 'settings'}
+        in={activeMenu === 'about'}
         unmountOnExit
         timeout={500}
         onEnter={calcHeight}
