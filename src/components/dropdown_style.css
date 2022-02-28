@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dropdown{
+    position: absolute;
+    top: 3.75rem;
+    width: 19rem;
+    transform: translateX(-45%);
+    background-color: var(--background);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    overflow: hidden;
+    transition: height var(--speed) ease;
+}
+
+.menu-item{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius);
+    transition: background var(--speed);
+    padding: 0.5rem;
+}
+
+.menu-item:hover{
+    background-color: #525252;
+}
+
+/* .icon-right{
+    margin-left: auto;
+} */
+
+.menu{
+    width: 100%;
+}
+
+.menu-primary-enter{
+    position: absolute;
+    transform: translateX(-110%);
+}
+
+.menu-primary-enter-active{
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+}
+
+.menu-primary-exit{
+    position: absolute;
+}
+
+.menu-primary-exit-active{
+    transform: translateX(-110%);
+    transition: all var(--speed) ease;
+}
+
+.menu-secondary-enter{
+    transform: translateX(110%);
+}
+
+.menu-secondary-enter-active{
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+}
+
+/* .menu-secondary-exit{
+    position: absolute;
+} */
+
+.menu-secondary-exit-active{
+    transform: translateX(110%);
+    transition: all var(--speed) ease;
+}
