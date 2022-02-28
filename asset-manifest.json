@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Navbar-portfolio/static/css/main.c34c0914.css",
+    "main.css": "/Navbar-portfolio/static/css/main.0019d6da.css",
     "main.js": "/Navbar-portfolio/static/js/main.75c01588.js",
     "static/media/graduation-cap.svg": "/Navbar-portfolio/static/media/graduation-cap.dba458de7a4a25e56c2cb9b3bd97cd94.svg",
     "static/media/phone-call.svg": "/Navbar-portfolio/static/media/phone-call.cbc2c44e826d8a096b9dbb5d44ed2d3f.svg",
@@ -10,11 +10,11 @@
     "static/media/caret-down.svg": "/Navbar-portfolio/static/media/caret-down.2ad091ca1e4b21079b00a69d522f078e.svg",
     "static/media/caret-right.svg": "/Navbar-portfolio/static/media/caret-right.96b94967b9ec06e267cb4fe25699e7fd.svg",
     "static/media/caret-left.svg": "/Navbar-portfolio/static/media/caret-left.1d94bd5c5ede176802ab4fed1532b9cb.svg",
-    "main.c34c0914.css.map": "/Navbar-portfolio/static/css/main.c34c0914.css.map",
+    "main.0019d6da.css.map": "/Navbar-portfolio/static/css/main.0019d6da.css.map",
     "main.75c01588.js.map": "/Navbar-portfolio/static/js/main.75c01588.js.map"
   },
   "entrypoints": [
-    "static/css/main.c34c0914.css",
+    "static/css/main.0019d6da.css",
     "static/js/main.75c01588.js"
   ]
 }
